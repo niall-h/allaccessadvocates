@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/allaccessadvocates/static/css/main.e5287ed2.css",
+    "main.js": "/allaccessadvocates/static/js/main.9621c4c5.js",
+    "static/js/483.b33829d2.chunk.js": "/allaccessadvocates/static/js/483.b33829d2.chunk.js",
+    "static/media/3dmarker.png": "/allaccessadvocates/static/media/3dmarker.ceb77280736dc3717e00.png",
+    "index.html": "/allaccessadvocates/index.html",
+    "main.e5287ed2.css.map": "/allaccessadvocates/static/css/main.e5287ed2.css.map",
+    "main.9621c4c5.js.map": "/allaccessadvocates/static/js/main.9621c4c5.js.map",
+    "483.b33829d2.chunk.js.map": "/allaccessadvocates/static/js/483.b33829d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5287ed2.css",
+    "static/js/main.9621c4c5.js"
+  ]
+}
