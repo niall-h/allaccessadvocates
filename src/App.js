@@ -1,6 +1,6 @@
 import React from "react";
 import Map, { Layer, Marker } from "react-map-gl";
-import markerImage from "./3dmarker.png";
+import CustomMarker from "./Marker";
 
 const mapboxAccessToken =
   "pk.eyJ1Ijoibmh0ZXQiLCJhIjoiY2xobzJhdHZmMXI4cTNtbHIyNWYwcHZpdCJ9.OBYsMDOF2Ns3Pnqt_p-i9Q";
@@ -61,7 +61,7 @@ export default function App() {
       antialias={true}
     >
       <Layer {...buildingsLayer} />
-      <Marker
+      {/* <Marker
         longitude={-117.23}
         latitude={32.8776}
         anchor="bottom"
@@ -75,7 +75,15 @@ export default function App() {
             width: "60px",
           }}
         />
-      </Marker>
+      </Marker> */}
+      <CustomMarker
+        longitude={-117.23}
+        latitude={32.8776}
+        issue={{
+          title: "Broken Elevator",
+          description: "Broken elevator in this location.",
+        }}
+      />
     </Map>
   );
 }
